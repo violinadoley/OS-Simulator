@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Single Level</title>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/single.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+        <style>
+    /* Styling for the navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: transparent;
+      z-index: 9999;
+    }
+    
+    /* Styling for the navbar links */
+    .navbar a {
+      color: #ffffff;
+      text-decoration: none;
+      padding: 5px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 1px solid transparent;
+      transition: all 0.3s ease;
+    }
+    
+    /* Hover effect for navbar links */
+    .navbar a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    /* Styling for the transparency box */
+    .transparency-box {
+      background-color: rgba(255, 255, 255, 0.5);
+      border: 4px solid #ffffff;
+      border-radius: 10px;
+      padding: 10px;
+      display: inline-block;
+    }
+          body {
+              color: white;
+              background-color: #a200e0;
+              background-image: url('image/bg.png');
+              background-size: cover;
+              background-position: center;
+          }
+    /* Style for the container */
+  .container {
+    height: 200px; /* Specify a fixed height for the container */
+    overflow: auto; /* Enable scrolling within the container */
+  }
+
+  ::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(22, 212, 51);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+.container {
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+      </style>
+    </head>
+    <body style="color:white; background-color: rgba(108, 108, 108, 1)">
+      <nav class="navbar">
+        <a href="../Index/index.html#filemanage"><span style="color: rgb(22, 212, 51); font-family: 'Consolas';">home</span></a>
+      </nav>
+        <br>
+        <br>
+        <br>
+        <div align= "center" style="font-family: 'Consolas'; color: #EEEEEE;"><p>Type <span style="color: rgb(22, 212, 51);">command_list</span> and press ENTER to get list of available commands</p></div>
+        <br>  
+        <div class="container">
+          <div id="divx">
+            <!-- Your content here -->
+          </div>
+        </div>
+        
+      <br>
+      <br>
+      <script type="text/javascript" src="js/single.js"></script>
+    </body>
+</html>
